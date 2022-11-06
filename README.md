@@ -39,13 +39,13 @@ $ yarn execute:[command]:[network]
 
 ```shell script
 # Close lottery.
-0 0,12 * * * cd ~/gambling-dao-lottery-scheduler && yarn execute:close:mainnet
+0 0,12 * * * cd ~/foxlottery-contract-v2-scheduler && yarn execute:close:mainnet
 
 # Draw lottery.
-3 0,12 * * * cd ~/gambling-dao-lottery-scheduler && yarn execute:draw:mainnet
+3 0,12 * * * cd ~/foxlottery-contract-v2-scheduler && yarn execute:draw:mainnet
 
 # Start lottery.
-5 0,12 * * * cd ~/gambling-dao-lottery-scheduler && yarn execute:start:mainnet
+5 0,12 * * * cd ~/foxlottery-contract-v2-scheduler && yarn execute:start:mainnet
 ```
 
 ### Logging
